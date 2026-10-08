@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daisy Jean Sulotan | Front-End Developer Portfolio</title>
+  <meta name="description" content="Fresh BSIT Graduate | Aspiring Front-End Developer | JavaScript, React, UI/UX" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+  <div class="bg-overlay"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Daisy<span>Jean</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#technologies">Technologies</a></li>
+        <li><a href="#stats">GitHub Stats</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="resume-btn" id="resume-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </button></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text" data-animate="fade-up">
+          <span class="hero-subtitle">Hello! I'm</span>
+          <h1 class="hero-title">Daisy Jean Sulotan</h1>
+          <p class="hero-headline">Fresh BSIT Graduate • Aspiring Front-End Developer</p>
+          <p class="hero-description">
+            I'm a passionate front-end developer focused on creating beautiful, responsive,
+            and user-friendly web experiences. Currently improving my skills in JavaScript,
+            React, and UI/UX design.
+          </p>
+          <div class="hero-social">
+            <a href="https://github.com/sulotandaisyjean-hub" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="mailto:daisyjean_sulotan@sjp2cd.edu.ph" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div class="hero-btn-group">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-image" data-animate="fade-left">
+          <div class="avatar-placeholder">
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Who Am I</h2>
+        <p class="section-description">A brief story about my journey as a developer</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text" data-animate="fade-up" data-delay="1">
+          <div class="info-card">
+            <h3>Front-End Developer</h3>
+            <p>Currently improving my skills in JavaScript, React, and UI/UX.</p>
+          </div>
+          <div class="info-card">
+            <h3>Focused On</h3>
+            <p>Responsive design and interactive interfaces. I enjoy creating projects that solve real-world problems and currently learning and building personal projects.</p>
+          </div>
+          <div class="info-card">
+            <h3>Education</h3>
+            <p>Bachelor of Science in Information Technology (BSIT)</p>
+          </div>
+        </div>
+
+        <div class="mindset" data-animate="fade-up" data-delay="2">
+          <div class="section-header">
+            <span class="section-tag">Developer Mindset</span>
+            <h3>Core Values</h3>
+          </div>
+          <div class="mindset-grid">
+            <div class="mindset-item">
+              <i class="fas fa-mountain"></i>
+              <span>Perseverance</span>
+            </div>
+            <div class="mindset-item">
+              <i class="fas fa-seedling"></i>
+              <span>Continuous Learning</span>
+            </div>
+            <div class="mindset-item">
+              <i class="fas fa-brain"></i>
+              <span>Critical Thinking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGIES SECTION -->
+  <section class="technologies section" id="technologies">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Technologies & Tools</span>
+        <h2 class="section-title">What I Use</h2>
+        <p class="section-description">Languages, frameworks, and tools I work with</p>
+      </div>
+
+      <div class="tech-categories">
+        <div class="tech-category" data-animate="fade-up" data-delay="1">
+          <h3 class="tech-category-title">Front-End</h3>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fab fa-html5 tech-icon html"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-css3-alt tech-icon css"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-js-square tech-icon js"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-animate="fade-up" data-delay="2">
+          <h3 class="tech-category-title">Version Control & Tools</h3>
+          <div class="tech-grid">
+            <div class="tech-item">
+              <i class="fab fa-git-alt tech-icon git"></i>
+              <span>Git</span>
+            </div>
+            <div class="tech-item">
+              <i class="fab fa-github tech-icon github"></i>
+              <span>GitHub</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-code tech-icon vscode"></i>
+              <span>VS Code</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRENTLY WORKING ON -->
+  <section class="working-on section" id="working-on">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Currently Working On</span>
+        <h2 class="section-title">Active Development</h2>
+        <p class="section-description">Skills I'm currently sharpening and projects I'm building</p>
+      </div>
+
+      <div class="working-grid">
+        <div class="working-card" data-animate="fade-up" data-delay="1">
+          <i class="fab fa-js-square"></i>
+          <h3>Improving my JavaScript skills</h3>
+        </div>
+        <div class="working-card" data-animate="fade-up" data-delay="2">
+          <i class="fab fa-react"></i>
+          <h3>Learning React.js</h3>
+        </div>
+        <div class="working-card" data-animate="fade-up" data-delay="3">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Building responsive websites</h3>
+        </div>
+        <div class="working-card" data-animate="fade-up" data-delay="4">
+          <i class="fas fa-palette"></i>
+          <h3>Improving UI/UX design</h3>
+        </div>
+        <div class="working-card" data-animate="fade-up" data-delay="5">
+          <i class="fas fa-lightbulb"></i>
+          <h3>Creating more real-world projects</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GITHUB STATS -->
+  <section class="stats section" id="stats">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">GitHub Stats</span>
+        <h2 class="section-title">My GitHub Activity</h2>
+        <p class="section-description">My coding journey tracked on GitHub</p>
+      </div>
+
+      <div class="stats-container" data-animate="fade-up">
+        <div class="stats-loading" id="stats-loading">
+          <div class="spinner"></div>
+          <p>Loading GitHub stats...</p>
+        </div>
+        <div class="stats-content" id="stats-content">
+          <div class="stats-profile" id="stats-profile">
+            <img src="" alt="GitHub Profile" id="profile-img" />
+            <div class="profile-info">
+              <h3 id="profile-name">Loading...</h3>
+              <div class="github-stats-grid">
+                <div class="stat-item">
+                  <span class="stat-number" id="repo-count">—</span>
+                  <span class="stat-label">Repositories</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number" id="follower-count">—</span>
+                  <span class="stat-label">Followers</span>
+                </div>
+                <div class="stat-item">
+                  <span class="stat-number" id="following-count">—</span>
+                  <span class="stat-label">Following</span>
+                </div>
+              </div>
+              <div class="github-bio" id="profile-bio">—</div>
+            </div>
+          </div>
+          <div class="stats-cards">
+            <div class="stat-card">
+              <img src="https://github-readme-stats.vercel.app/api?username=sulotandaisyjean-hub&theme=tokyonight&hide=issues&show_icons=true&count_private=true" alt="GitHub Stats" id="stats-img" />
+            </div>
+            <div class="stat-card">
+              <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulotandaisyjean-hub&theme=tokyonight&hide=jupyter-notebook,vim-script,tex&layout=compact" alt="Top Languages" id="langs-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Projects</span>
+        <h2 class="section-title">Featured Work</h2>
+        <p class="section-description">Some of the projects I've built</p>
+      </div>
+
+      <div class="projects-loading" id="projects-loading">
+        <div class="spinner"></div>
+        <p>Loading projects...</p>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header" data-animate="fade-up">
+        <span class="section-tag">Contact Me</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-description">I'd love to hear from you — feel free to reach out!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-method" data-animate="fade-up" data-delay="1">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <a href="https://github.com/sulotandaisyjean-hub" target="_blank">sulotandaisyjean-hub</a>
+        </div>
+        <div class="contact-method" data-animate="fade-up" data-delay="2">
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <a href="mailto:daisyjean_sulotan@sjp2cd.edu.ph">daisyjean_sulotan@sjp2cd.edu.ph</a>
+        </div>
+        <div class="contact-method" data-animate="fade-up" data-delay="3">
+          <i class="fas fa-briefcase"></i>
+          <h3>Education</h3>
+          <span>Bachelor of Science in Information Technology (BSIT)</span>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contact-form" data-animate="fade-up" data-delay="4">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-row">
+          <input type="text" name="subject" placeholder="Subject" required />
+        </div>
+        <div class="form-row">
+          <textarea name="message" rows="6" placeholder="Your Message..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content" data-animate="fade-up">
+        <div class="footer-brand">
+          <span class="logo">Daisy<span>Jean</span></span>
+          <p>Fresh BSIT Graduate • Aspiring Front-End Developer</p>
+        </div>
+        <div class="footer-links">
+          <p>Quick Links:</p>
+          <div class="footer-nav">
+            <a href="#about">About</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <div class="footer-social">
+          <a href="https://github.com/sulotandaisyjean-hub" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:daisyjean_sulotan@sjp2cd.edu.ph" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Daisy Jean Sulotan. All rights reserved.</p>
+        <p>Thanks for visiting my profile!</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
